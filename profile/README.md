@@ -1,12 +1,17 @@
-# echofit
+# EchoFit
 
-AI-powered fitness and nutrition tracking. Talk to your favorite AI agent to log meals, exercises, blood pressure, water intake, and more.
+AI-powered fitness and nutrition tracking.
 
-## Get started
+## Packages
 
-- **[echofit](https://github.com/echofit/echofit)** — MCP server + CLI
+| Package | Purpose | Audience |
+|---------|---------|----------|
+| `echofit` | CLI | End users (`pipx install echofit`, `brew install echofit`) |
+| `echofit-sdk` | Core library | Developers building integrations |
+| `echofit-mcp` | MCP server | AI tool users (Claude plugin, `pipx install echofit-mcp`) |
 
-## Links
+## Repos
 
-- [echofit.ai](https://echofit.ai)
-- Part of the [echoskill](https://echoskill.ai) ecosystem
+| Repo | Description |
+|------|-------------|
+| [echofit](https://github.com/echofit/echofit) | Monorepo: SDK, CLI, and MCP server |
